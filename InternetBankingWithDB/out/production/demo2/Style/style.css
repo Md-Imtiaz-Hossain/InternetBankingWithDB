@@ -1,0 +1,29 @@
+.root
+{
+    -fx-background-image:url('/image/homePage.jpg');
+}
+
+.login-button{
+    -fx-text-fill: #444444;
+    -fx-background-radius: 50px;
+    -fx-background-color: white;
+    -fx-border-radius: 5050px;
+    -fx-border-color: 444444;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}
+
+
+
+.login-button:hover{
+    -fx-text-fill: white;
+    -fx-background-color: #7a967d;
+    -fx-border-color: #7a967d;
+    -fx-border-style: solid;
+    -fx-border-width: 3px;
+    -fx-cursor: hand;
+}
+
+.anchorPane-style{
+     -fx-background-radius: 20px;
+}

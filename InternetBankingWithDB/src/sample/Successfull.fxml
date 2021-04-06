@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #a6e3b6;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Successfull">
+   <children>
+      <ImageView fitHeight="120.0" fitWidth="500.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@../image/homePage.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="65.0" layoutY="183.0" prefHeight="231.0" prefWidth="393.0" text="Welcome To Your Internet Banking Account." textAlignment="CENTER" textFill="#1d1dd7" wrapText="true">
+         <font>
+            <Font name="Abyssinica SIL" size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="14.0" prefHeight="98.0" prefWidth="472.0" text="Successfull" textFill="#eb0ee6" wrapText="true">
+         <font>
+            <Font name="Abyssinica SIL" size="86.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
